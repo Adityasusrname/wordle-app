@@ -10,8 +10,8 @@ function App() {
     <div>
 
     
-   <h1>WORDLE</h1>
-   
+   <center><h1>WORDLE</h1></center>
+
     <Game/>
 
    </div>

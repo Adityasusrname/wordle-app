@@ -18,7 +18,7 @@ function Game(){
         <div>
             <Board value={words}/>
             <br/>
-            <div>
+            <div className="boardRow">
 
                 <Square value="Q" onSquareClick={()=>handleClick('Q')}/>
                 <Square value="W" onSquareClick={()=>handleClick('W')}/>
@@ -33,7 +33,7 @@ function Game(){
 
             </div>
 
-            <div>
+            <div className="boardRow">
 
                 <Square value="A" onSquareClick={()=>handleClick('A')}/>
                 <Square value="S" onSquareClick={()=>handleClick('S')}/>
@@ -48,7 +48,7 @@ function Game(){
               
             </div>
 
-            <div>
+            <div className="boardRow">
 
                 <Square value="Z" onSquareClick={()=>handleClick('Z')}/>
                 <Square value="X" onSquareClick={()=>handleClick('X')}/>

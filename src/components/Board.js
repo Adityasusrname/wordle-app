@@ -5,7 +5,7 @@ function Board(props){
     return (
         <div className="board">
 
-            <div>
+            <div className="boardRow">
                 <Square value={words[0]}/>
                 <Square value={words[1]}/>
                 <Square value={words[2]}/>
@@ -13,7 +13,7 @@ function Board(props){
                 <Square  value={words[4]}/>
             </div>
 
-            <div>
+            <div className="boardRow">
                 <Square value={words[5]}/>
                 <Square value={words[6]}/>
                 <Square value={words[7]}/>
@@ -21,7 +21,7 @@ function Board(props){
                 <Square  value={words[9]}/>
             </div>
 
-            <div>
+            <div className="boardRow">
                 <Square value={words[10]}/>
                 <Square value={words[11]}/>
                 <Square value={words[12]}/>
@@ -29,7 +29,7 @@ function Board(props){
                 <Square  value={words[14]}/>
             </div>
           
-            <div>
+            <div className="boardRow">
                <Square value={words[15]}/>
                 <Square value={words[16]}/>
                 <Square value={words[17]}/>
@@ -37,7 +37,7 @@ function Board(props){
                 <Square  value={words[19]}/>
             </div>
 
-            <div>
+            <div className="boardRow">
                 <Square value={words[20]}/>
                 <Square value={words[21]}/>
                 <Square value={words[22]}/>

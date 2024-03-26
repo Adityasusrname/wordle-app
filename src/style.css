@@ -18,3 +18,8 @@
     border: 1px solid red;
     background-color: brown;
 }
+
+.boardRow{
+    display: flex;
+    justify-content: center;
+}
