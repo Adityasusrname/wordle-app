@@ -1,7 +1,8 @@
 
 import './App.css';
 import Board from './components/Board';
-import Keyboard from './components/Keyboard';
+import Game from './components/Game';
+import Keyboard from './components/Game';
 import './style.css'
 
 function App() {
@@ -10,9 +11,8 @@ function App() {
 
     
    <h1>WORDLE</h1>
-   <Board/>
-   <br/>
-   <Keyboard/>
+   
+    <Game/>
 
    </div>
   )
